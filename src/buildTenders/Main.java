@@ -9,7 +9,18 @@ public class Main {
         Workers vasya4 = new Workers(300, new Skills[]{Skills.BUILD_WALL});
         Workers vasya5 = new Workers(700, new Skills[]{Skills.MANAGE,Skills.PLUMBER});
 
+
         Team teamVasyay = new Team();
+        teamVasyay.addWorker(vasya1);
+        teamVasyay.addWorker(vasya2);
+        teamVasyay.addWorker(vasya3);
+        teamVasyay.addWorker(vasya4);
+        teamVasyay.addWorker(vasya5);
+
+
+
+
+
 
     }
 }
