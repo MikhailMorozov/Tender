@@ -10,11 +10,11 @@ public class Main {
         Workers vasya5 = new Workers(700, new Skills[]{Skills.MANAGE,Skills.PLUMBER});
 
         Team teamVasyay = new Team();
-        teamVasyay.addWorker(vasya1);
-        teamVasyay.addWorker(vasya2);
-        teamVasyay.addWorker(vasya3);
-        teamVasyay.addWorker(vasya4);
-        teamVasyay.addWorker(vasya5);
+        teamVasyay.addWorkerToTeam(vasya1);
+        teamVasyay.addWorkerToTeam(vasya2);
+        teamVasyay.addWorkerToTeam(vasya3);
+        teamVasyay.addWorkerToTeam(vasya4);
+        teamVasyay.addWorkerToTeam(vasya5);
 
         Workers dzhamhut1 = new Workers(200, new Skills[]{Skills.PAINT});
         Workers dzhamhut2 = new Workers(350, new Skills[]{Skills.BUILD_FLOOR, Skills.BUILD_ROOF});
@@ -23,11 +23,11 @@ public class Main {
         Workers dzhamhut5 = new Workers(1000, new Skills[]{Skills.MANAGE,Skills.PLUMBER});
 
         Team teamDzhamhuts = new Team();
-        teamDzhamhuts.addWorker(dzhamhut1);
-        teamDzhamhuts.addWorker(dzhamhut2);
-        teamDzhamhuts.addWorker(dzhamhut3);
-        teamDzhamhuts.addWorker(dzhamhut4);
-        teamDzhamhuts.addWorker(dzhamhut5);
+        teamDzhamhuts.addWorkerToTeam(dzhamhut1);
+        teamDzhamhuts.addWorkerToTeam(dzhamhut2);
+        teamDzhamhuts.addWorkerToTeam(dzhamhut3);
+        teamDzhamhuts.addWorkerToTeam(dzhamhut4);
+        teamDzhamhuts.addWorkerToTeam(dzhamhut5);
 
 
 
