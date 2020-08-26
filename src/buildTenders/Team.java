@@ -3,24 +3,26 @@ package buildTenders;
 import java.util.LinkedList;
 
 public class Team {
-    private Workers workers;
-    private LinkedList<Workers> team;
+
+    private LinkedList<Workers> team = new LinkedList<>();
+
 
     public void addWorkerToTeam (Workers workers) {
-        team.add(this.workers);
+        team.add(workers);
     }
 
-    public int costOfWork(LinkedList<Workers> team) {
+    public int costOfWork() {
         int costOfWork = 0;
         int sizeTeam = team.size();
-        Workers workers;
 
         for (int i = 0; i < sizeTeam; i++){
-            workers = team.get(i);
+            Workers workers = team.get(i);
             costOfWork = costOfWork + workers.getSalary();
         }
         return costOfWork;
     }
+
+
 
 
 }
