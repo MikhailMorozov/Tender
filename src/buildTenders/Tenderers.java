@@ -19,6 +19,10 @@ public class Tenderers {
         infoOfTeam.put(Skills.BUILD_ROOF, team.numberOfBuildRoof());
         infoOfTeam.put(Skills.PLUMBER, team.numberOfPlumber());
         infoOfTeam.put(Skills.ELECTRICIAN, team.numberOfElectrian());
+
+        for(Map.Entry<Skills, Integer> item : infoOfTeam.entrySet()) {
+            System.out.printf("Skill: %s  Value: %s \n", item.getKey(), item.getValue());
+        }
         return infoOfTeam;
     }
 

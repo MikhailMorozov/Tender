@@ -38,6 +38,15 @@ public class Main {
         buildTenders.addTeamToTender(teamVasyay);
         buildTenders.addTeamToTender(teamDzhamhuts);
 
+        // сбор информации о скилах бригады
+        InfoTeam infoteamVasyay = new InfoTeam();
+        infoteamVasyay = (InfoTeam) buildTenders.infoOfTeam(teamVasyay);
+        InfoTeam infoteamDzhamhuts = new InfoTeam();
+        infoteamDzhamhuts = buildTenders.infoOfTeam(teamDzhamhuts)
+
+
+
+
 
 
 
