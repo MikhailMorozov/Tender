@@ -8,7 +8,7 @@ public class Main {
         Workers vasya2 = new Workers(550, new Skills[]{Skills.BUILD_FLOOR, Skills.BUILD_ROOF});
         Workers vasya3 = new Workers(300, new Skills[]{Skills.BUILD_WALL});
         Workers vasya4 = new Workers(300, new Skills[]{Skills.BUILD_WALL});
-        Workers vasya5 = new Workers(700, new Skills[]{Skills.MANAGE,Skills.PLUMBER});
+        Workers vasya5 = new Workers(700, new Skills[]{Skills.MANAGE,Skills.PLUMBER,Skills.PAINT});
 
         // создается первая бригада, добавляются рабочие
         Team teamVasyay = new Team();
@@ -37,6 +37,9 @@ public class Main {
         Tenderers buildTenders = new Tenderers();
         buildTenders.addTeamToTender(teamVasyay);
         buildTenders.addTeamToTender(teamDzhamhuts);
+
+
+
 
 
 

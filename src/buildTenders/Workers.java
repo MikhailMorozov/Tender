@@ -13,6 +13,10 @@ public class Workers {
         return salary;
     }
 
+    public Skills[] getSkills() {
+        return skills;
+    }
+
     public void setSalary(int salary) {
         this.salary = salary;
     }
